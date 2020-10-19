@@ -31,5 +31,24 @@ public class CarTest {
         andrasCar.turnEngineOn(key);
     }
 
+    private static void testStartCarCanDrive() {
+        Car andrasCar = new Car();
+        CarKey key = new CarKey("password1234");
+        andrasCar.turnEngineOn(key);
+        // Tag håndbremsen fra
+        andrasCar.releaseHandbreak();
+        // Sæt bilen i frigear
+        andrasCar.changeToGear(0);
+        // Hvis den er i frigear, tryk kobling ned
+        andrasCar.pressClutch();
+        // Skift gear til 1
+        andrasCar.changeToGear(1);
+        // Slip koblingen
+        andrasCar.releaseClutch();
+        // Tryk gaspadelane (halvt) ned
+        andrasCar.pressSpeeder(3);
+
+
+    }
 
 }
