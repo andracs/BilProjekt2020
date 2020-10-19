@@ -23,4 +23,19 @@ public class Car {
             System.out.println("Bilen kan ikke tænde, pga. forkert nøgle.");
         }
     }
+
+    public void releaseHandbreak() {
+    }
+
+    public void changeToGear(int i) {
+    }
+
+    public void pressClutch() {
+    }
+
+    public void releaseClutch() {
+    }
+
+    public void pressSpeeder(int i) {
+    }
 }
