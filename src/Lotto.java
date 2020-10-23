@@ -7,16 +7,6 @@ import java.util.Random;
  * 23/10/2020
  */
 
-/* Næste gang:
-        Lotto
-          se på - final constant;
-          command line
-          batch fil
-        forskel mellem static og ikke static
-        public osv
-        algoritmer - lav en array med 5 tilfældige farver, find en bestemt farve
-*/
-
 /* OPGAVEN: Lav et array med 5 tilfældige tal mellem 1 og 90, men du må ikke trække de samme tal 2 gange! */
 public class Lotto {
 
