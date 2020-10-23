@@ -13,6 +13,7 @@ public class Garage {
     int[] randomTal = new int[100];
     int[] godeTal = {8, 7, 13};
 
+
     static Object[] objekter = new Object[10];
     int x = 5;
     Integer y = 8;
@@ -38,18 +39,34 @@ public class Garage {
         car1.turnEngineOn(key);
         Car car9 = new Car();
 
+        int antalBiler = 3;
         // Vælg en klasse du selv har lavet
         // Lav et array med 1000000 elementer
         // Udskriv deres unikke ID (toString())
         // Kald en selvvalgt metode på klassen på hvert objekt
-        Car[] cars = new Car[1000000]; //skaber array med 1000000 biler
-        for (int i = 0; i < 1000000; i++) {
+        Car[] cars = new Car[antalBiler]; //skaber array med 1000000 biler
+        for (int i = 0; i < antalBiler; i++) {
             cars[i] = new Car();
             System.out.print(i + ". ");
             System.out.println(cars[i].toString());
-            CarKey key2 = new CarKey("password1234");
-            cars[i].turnEngineOn(key2);
+            //CarKey key2 = new CarKey("password1234");
+            //cars[i].turnEngineOn(key2);
         }
+
+        // .length parameter
+        for (int i = 0; i < cars.length; i++) {
+            System.out.println("Bil");
+        }
+
+        // Foreach
+        for (Car x : cars) {
+            x = new Car();
+            System.out.println(x.toString());
+        }
+
+        // for (int i = 0; i < 1000000; i++) {
+        // for (int i = 0; i < cars.length; i++) {
+        // for (Car x : cars) {
 
         allCars[0] =  new Car();
         allCars[0].airconditionOn();
