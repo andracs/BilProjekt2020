@@ -80,6 +80,6 @@ public class CarTest {
     }
 
     private static void testEnum() {
-        System.out.println("Engine State: " + EngineState.OFF);
+        System.out.println("Engine State: " + EngineState.values());
     }
 }

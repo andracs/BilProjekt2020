@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Scanner;
 
 /**
  * Developed by András Ács (acsandras@gmail.com)
@@ -27,6 +28,7 @@ public class Lotto {
             lottoTal[i] = nytNummer;
             System.out.println("Array index " + i + " indeholder nummer  " + lottoTal[i] + ".");
         }
+
     }
 
     public static int randomNummer() {
