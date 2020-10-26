@@ -7,6 +7,6 @@
 
 public class Colors {
 
-    x --> ['rød', 'grøn', 'blå', 'gul']
-    y --> [x[0], x[0], x[3], x[2]]
+    // x --> ['rød', 'grøn', 'blå', 'gul']
+    // y --> [x[0], x[0], x[3], x[2]]
 }
